@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Activity 2</title>
+    </head>
+    <body>
+        <img src="images/automobile.jpg" alt="automobile" width="300" height="200">
+        <br>
+        <a href="esping18@gmatc.matc.edu">Contact</a>
+        <hr>
+        <!--Simple Table-->
+        <table id="simple-table" border="1" cellspacing="0">
+            <tr>
+                <th>Fruit</th>
+                <th>Color</th>
+                <th>Cost</th>
+            </tr>
+            <tr>
+                <td>Banana</td>
+                <td>Yellow</td>
+                <td>$0.63</td>
+            </tr>
+            <tr>
+                <td>Kiwi</td>
+                <td>Brown</td>
+                <td>$1.46</td>
+            </tr>
+        </table>
+        <br>
+        <!--Complex Table-->
+        <table id="complex-table" border="1" cellspacing="0">
+            <thead>
+                <tr>
+                    <th scope="column">Fruit</th>
+                    <th colspan="2">Color & Cost</th>
+                    <th>Discount</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td scope="row">Red Delicious Apple</td>
+                    <td>Red</td>
+                    <td rowspan="2">$0.94</td>
+                    <td rowspan="2">25% Off</td>
+                </tr>
+                <tr>
+                    <td>Granny Smith Apple</td>
+                    <td>Green</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Banana</td>
+                    <td>Yellow</td>
+                    <td>$0.63</td>
+                    <td>10% Off</td>
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>
