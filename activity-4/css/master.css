@@ -1,0 +1,37 @@
+body {
+    background-color: #ebf5fb;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+h1 {
+    background-color: #aed6f1;
+    margin: 0 auto;
+}
+img {
+    height: 18.5em;
+    display: block;
+    margin: auto;
+    width: auto;
+}
+
+figcaption {
+    display: block;
+    margin: auto;
+    width: auto;
+}
+
+p#product-description {
+    background-color: #d6eaf8;
+    padding: 1em;
+}
+
+h2 {
+    background-color: #aed6f1;
+    padding: 1em;
+}
+
+div.review {
+    background-color: #d6eaf8;
+    padding: 0.5em;
+}
