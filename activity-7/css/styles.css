@@ -1,0 +1,19 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: lightgrey;
+    padding-right: 200px
+}
+
+li {
+    color: green;
+}
+
+#completed-list li {
+    color: red;
+    text-decoration: line-through;
+}
+
+#todo-list-container {
+    border: 3px solid grey;
+    padding: 3px;
+}
