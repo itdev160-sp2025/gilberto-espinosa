@@ -1,0 +1,50 @@
+/*Main Styles*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    background-color: beige;
+}
+
+header {
+    background-color: lightgray;
+    border: solid 1px;
+    padding-bottom: 10px;
+}
+
+main #display-content {
+    background-color: khaki;
+    border: solid 2px;
+    margin: 20px 100px;
+}
+
+/*Modal Styles*/
+#modal-backdrop {
+    display: none;
+}
+
+#modal-backdrop.visible {
+    display: block;
+}
+
+.modal {
+    display: none;
+    background-color: lightgray;
+    border: solid 1px;
+    margin: 20px 100px;
+    box-sizing: border-box;
+}
+
+.modal.visible {
+    display: block;
+}
+
+#edit-title-text {
+    border: solid 0.5px;
+}
+
+#edit-content-text {
+    border: solid 0.5px;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
